@@ -5,17 +5,21 @@ import Playlist from "../Playlist/Playlist";
 
 const useStyles = makeStyles((theme) => ({
     sideBarRoot: {
+        position: 'fixed',
+        left: '0px',
+        width: '16.7%',
+        top: '0',
         display: 'flex',
         flexDirection: 'column',
         backgroundColor: '#020302',
         color: '#FEFFFE',
         paddingTop: '2em',
-        // alignItems: 'center',
         height: '95.2vh'
     },
     title:{
         textAlign: 'center',
-        fontFamily: 'Raleway, sans-serif'
+        fontFamily: 'Raleway, sans-serif',
+        fontSize: '2em'
     }
 }))
 

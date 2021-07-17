@@ -54,7 +54,7 @@ const TopAppBar = () => {
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
-        <Toolbar style={{display: 'flex', justifyContent: 'space-between'}}>
+        <Toolbar style={{display: 'flex', justifyContent: 'space-between', paddingLeft: '3em', paddingRight: '3em'}}>
           <Box>
             <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
               <ArrowBackIosIcon />

@@ -4,8 +4,8 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
-import WebAssetIcon from '@material-ui/icons/WebAsset';
-import RadioIcon from '@material-ui/icons/Radio';
+import SearchIcon from '@material-ui/icons/Search';
+import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 
 const useStyles = makeStyles((theme) => ({
     navitemsRoot: {
@@ -47,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
 
 const navItems = [
     {text: 'Home', icon: <HomeIcon style={{fontSize: '1.1em', color: '#FEFFFE'}}/>},
-    {text: 'Browse', icon: <WebAssetIcon style={{fontSize: '1.1em', color: '#FEFFFE'}} />},
-    {text: 'Radio', icon: <RadioIcon style={{fontSize: '1.1em', color: '#FEFFFE'}}/>}
+    {text: 'Search', icon: <SearchIcon style={{fontSize: '1.1em', color: '#FEFFFE'}} />},
+    {text: 'Library', icon: <LibraryMusicIcon style={{fontSize: '1.1em', color: '#FEFFFE'}}/>}
 ]
 
 const Navitems = () => {
